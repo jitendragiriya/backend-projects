@@ -51,6 +51,6 @@ exports.deleteProject = catchAsyncErrors(async (req, res, next) => {
 
   await project.remove();
   res.status(200).json({
-    message: "Product deleted successfully!",
+    message: "Project deleted successfully!",
   });
 });

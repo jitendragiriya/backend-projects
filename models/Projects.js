@@ -10,6 +10,10 @@ const projectSchema = new mongoose.Schema(
       type: String,
       required: true,
     },
+    tech: {
+      type: String,
+      required: true,
+    },
     link: {
       type: String,
     },
